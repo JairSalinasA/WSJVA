@@ -1,0 +1,4 @@
+{
+ "strcon":"jdbc:sqlite:/Users/adolfoyoyo/eclipse-workspace/tmp/shkdata.db",
+ "driver":"org.sqlite.JDBC"
+}

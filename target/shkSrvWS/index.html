@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>shkSrvWS</title>
+</head>
+
+<script>
+   document.addEventListener("DOMContentLoaded", (event) => {
+      let local = window.location;
+
+      document.getElementById('hostname').innerHTML = local.hostname;
+      document.getElementById('port').innerHTML = local.port;
+   });
+</script>
+
+<body>
+   <h1>Welcome to shkSrvWS</h1>
+
+   <p>HostName: <span id="hostname"></span></p>
+   <p>Port: <span id="port"></span></p>
+</body>
+</html>
